@@ -132,7 +132,7 @@ echo "This is Install Prerequisties "
 get_ov500_source (){
 	rm -rf /usr/local/src/OV500
         cd /usr/local/src
-        git clone -b master https://github.com/openvoips/OV500.git
+        git clone https://github.com/timando/OV500.git
 }
 
 #Download Freeswitch Source and installation with dependency 
